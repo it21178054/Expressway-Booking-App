@@ -1,33 +1,33 @@
-{
+  {
   "project_info": {
-    "project_number": "309972061909",
-    "project_id": "fir-realtimekotlin-5147c",
-    "storage_bucket": "fir-realtimekotlin-5147c.appspot.com"
+    "project_number": "675709639060",
+    "project_id": "fir-kotlin-24c90",
+    "storage_bucket": "fir-kotlin-24c90.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:309972061909:android:f649930973a40983069c5c",
+        "mobilesdk_app_id": "1:675709639060:android:dfaa01cd10513c0b73d781",
         "android_client_info": {
-          "package_name": "com.example.firebasekotlin"
+          "package_name": "com.example.ticket_bppking"
         }
       },
       "oauth_client": [
         {
-          "client_id": "309972061909-itr2qoin6cduf1lai7b5evnkgj1n2muc.apps.googleusercontent.com",
+          "client_id": "675709639060-qp3bgpvk1ftkkgvebc9og567uhkm0d6m.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAtjBP3rtJh1pC8S4hl4SYV9wB5z-Yk7LE"
+          "current_key": "AIzaSyAPOKHTTuAjHmIzof04Ry6zpzZdJWso9i8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "309972061909-itr2qoin6cduf1lai7b5evnkgj1n2muc.apps.googleusercontent.com",
+              "client_id": "675709639060-qp3bgpvk1ftkkgvebc9og567uhkm0d6m.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

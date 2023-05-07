@@ -8,11 +8,32 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Firebasekotlin"
+        android:theme="@style/Theme.Ticket_bppking"
         tools:targetApi="31">
         <activity
-            android:name=".activities.MainActivity"
+            android:name=".BookingConfirmationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_booking_confirmation"
+            android:theme="@style/Theme.Ticket_bppking" />
+        <activity
+            android:name=".RelativeLayout"
+            android:exported="false" />
+        <activity
+            android:name=".fetching"
+            android:exported="false" />
+        <activity
+            android:name=".customerlist"
+            android:exported="false" />
+        <activity
+            android:name=".fetchingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".actvites.editbooking"
+            android:exported="false" />
+        <activity
+            android:name=".booking"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,16 +41,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity
-            android:name=".activities.InsertionActivity"
-            android:exported="true"/>
-        <activity
-            android:name=".activities.FetchingActivity"
-            android:exported="true"/>
-        <activity
-            android:name=".activities.CustomerDetailsActivity"
-            android:exported="true"/>
-
     </application>
+
 </manifest>

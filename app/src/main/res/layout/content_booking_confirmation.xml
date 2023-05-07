@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/ticketbooking"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ticketnumberc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:text="Ticket Number" />
+
+    <TextView
+        android:id="@+id/Journeydetailsc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textSize="20sp"
+        tools:text="@string/Journeydetails" />
+
+    <TextView
+        android:id="@+id/Passengerinformationc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textSize="20sp"
+        tools:text="@string/passengerinformation" />
+
+    <Button
+        android:id="@+id/viewticketc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/viewticket" />
+
+    <Button
+        android:id="@+id/SendTicketC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sendticketvia" />
+
+    <Button
+        android:id="@+id/Sharebookingc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ShareBookingDetails" />
+
+</LinearLayout>
