@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="@string/ticketbooking"
-        android:textSize="36sp"
+        android:textSize="35sp"
         android:textStyle="bold" />
 
     <EditText
