@@ -22,7 +22,7 @@
         android:layout_marginTop="20dp"
 
         android:ems="10"
-        android:hint=" Nic" />
+        android:hint=" 986578113V" />
 
     <EditText
         android:id="@+id/etTp"
@@ -31,7 +31,7 @@
         android:layout_marginTop="20dp"
 
         android:ems="10"
-        android:hint="Tp Number"
+        android:hint="0786544321"
         android:inputType="textPersonName" />
 
     <EditText
@@ -41,7 +41,7 @@
         android:layout_marginTop="20dp"
 
         android:ems="10"
-        android:hint="Email"
+        android:hint="nime@gmail.com"
         android:inputType="textPersonName" />
 
     <EditText
@@ -51,7 +51,7 @@
         android:layout_marginTop="20dp"
 
         android:ems="10"
-        android:hint="Inquiry"
+        android:hint="time table is not properly"
         android:inputType="textPersonName" />
 
     <Button
