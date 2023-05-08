@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#B8F5F0"
     android:orientation="vertical"
     tools:context=".actvites.editbooking">
 
@@ -67,12 +68,14 @@
         android:id="@+id/edite"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="#006AD4"
         android:text="@string/edit" />
 
     <Button
         android:id="@+id/deletee"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="#006AD4"
         android:text="@string/delete" />
 
 </LinearLayout>

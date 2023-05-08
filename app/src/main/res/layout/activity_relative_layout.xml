@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="10dp"
+    android:background="#B8F5F0"
     android:orientation="vertical"
     android:padding="16dp">
 
@@ -38,6 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="129dp"
         android:layout_marginBottom="16dp"
+        android:background="@color/purple_200"
         android:src="@drawable/seat_layout_image" />
 
     <!-- Add more seat buttons as per your seat layout -->
@@ -47,6 +49,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
+        android:backgroundTint="#006AD3"
         android:text="A1" />
 
     <Button
@@ -54,6 +57,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
+        android:backgroundTint="#006AD3"
         android:text="B1" />
 
     <Button
@@ -61,6 +65,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:backgroundTint="#006AD4"
         android:text="Proceed to Booking" />
 
 </LinearLayout>

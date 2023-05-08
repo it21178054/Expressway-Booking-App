@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="10dp"
+    android:background="#B8F5F0"
     android:orientation="vertical"
     tools:context=".booking">
 
@@ -70,5 +71,6 @@
         android:id="@+id/bookingb"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="#25A7E3"
         android:text="@string/booking" />
 </LinearLayout>
