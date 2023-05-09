@@ -101,20 +101,3 @@ class booking : AppCompatActivity() {
 
 
 
-/*
-package com.example.ticket_bppking
-
-import android.os.Bundle
-import android.widget.Toast
-import androidx.appcompat.app.AppCompatActivity
-
-class booking : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_booking)
-
-        // Show a pop-up message when the activity is created
-        Toast.makeText(this, "Welcome to the booking activity!", Toast.LENGTH_SHORT).show()
-    }
-}
-*/
