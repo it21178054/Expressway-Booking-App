@@ -81,6 +81,6 @@
         android:id="@+id/bookingb"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="#25A7E3"
+        android:backgroundTint="#006AD4"
         android:text="@string/booking" />
 </LinearLayout>

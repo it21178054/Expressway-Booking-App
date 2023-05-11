@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="seatA1Button" type="id" />
+    <item name="seatB1Button" type="id">button</item>
+    <item name="proceedToBookingButton" type="id">booking</item>
+    <item name="busoperatorp" type="id">torp</item>
+    <item name="facilitiesp" type="id">esp</item>
+</resources>

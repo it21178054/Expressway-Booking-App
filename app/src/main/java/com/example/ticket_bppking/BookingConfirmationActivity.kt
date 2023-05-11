@@ -12,14 +12,14 @@ import com.example.ticket_bppking.databinding.ActivityBookingConfirmationBinding
 class BookingConfirmationActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
-    private lateinit var binding: ActivityBookingConfirmationBinding
+    private var binding: ActivityBookingConfirmationBinding? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityBookingConfirmationBinding.inflate(layoutInflater)
-        setContentView(binding.root)
+        setContentView(binding?.root)
 
-        setSupportActionBar(binding.toolbar)
+        setSupportActionBar(binding?.toolbar)
 
         // Set up the navigation controller and configure the action bar
         val navController = findNavController(R.id.Sharebookingc)
@@ -27,8 +27,8 @@ class BookingConfirmationActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
 
         // Set a click listener for the FAB to display a Snackbar
-        binding.fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+        binding?.fab?.setOnClickListener { view ->
+            Snackbar.make(view, "Confirm", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
         }
     }
@@ -38,5 +38,10 @@ class BookingConfirmationActivity : AppCompatActivity() {
         val navController = findNavController(R.id.Sharebookingc)
         return navController.navigateUp(appBarConfiguration)
                 || super.onSupportNavigateUp()
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        binding = null
     }
 }
