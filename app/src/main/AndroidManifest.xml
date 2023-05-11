@@ -37,14 +37,14 @@
         <activity
             android:name=".customerlist"
             android:exported="false" />
-        <activity
-            android:name=".fetchingActivity"
-            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".fetchingActivity"-->
+<!--            android:exported="false" />-->
         <activity
             android:name=".actvites.editbooking"
             android:exported="false" />
         <activity
-            android:name=".booking"
+            android:name=".fetchingActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
